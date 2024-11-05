@@ -1208,9 +1208,8 @@ def api1(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = lambda :  
 random.choice(digits)None
-        jazoest = li2 + j1
+        jazoest = li2 
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
             'access_token': '256002347743983%7C374e60f8b9bb6b8cbb30f78030438895',
