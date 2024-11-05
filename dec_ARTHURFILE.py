@@ -1208,7 +1208,7 @@ def api1(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = (lambda .0:  )
+        j1 = (lambda :  )
 random.choice(digits)None
         jazoest = li2 + j1
         data = {
@@ -1408,7 +1408,7 @@ def api2(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = (lambda .0:  )
+        j1 = (lambda :  )
 random.choice(digits)None())
         jazoest = li2 + j1
         data = {
@@ -1608,7 +1608,7 @@ def api3(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = (lambda .0:  )
+        j1 = (lambda :  )
 random.choice(digits)None())
         jazoest = li2 + j1
         data = {
@@ -1808,7 +1808,7 @@ def api4(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = (lambda .0:  )
+        j1 = (lambda :  )
 random.choice(digits)None())
         jazoest = li2 + j1
         data = {
