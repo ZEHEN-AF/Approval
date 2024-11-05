@@ -1533,7 +1533,6 @@ def api2(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = lambda :  
 def api4(ids, names, passlist):
     global loop
     sys.stdout.write(f'''\r\r\x1b[1;37m [SIHAB-M4] {loop!s}|\x1b[1;37mOK:-{len(oks)!s} \x1b[1;37m''')
