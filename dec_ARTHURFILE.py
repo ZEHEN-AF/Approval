@@ -1035,7 +1035,6 @@ def menu():
             if not mthd in ('4', '04'):
                 pass
             crack_submit.submit(api4, ids, names, passlist)
-            None(None, None)
             print(' THE PROCESS HAS COMPLETED')
             print(' TOTAL OK/CP : ' + str(len(oks)) + '/' + str(len(cps)))
             linex()
@@ -1725,18 +1724,3 @@ def api4(ids, names, passlist):
         return None
         e = None
         del e
-
-if __name__ == '__main__':
-    menu()
-    return None
-return None
-fbcr = 'SMART'
-if Exception:
-    e = None
-    fbcr = 'SMART'
-    sim_id += fbcr
-    e = None
-    del e
-    e = None
-    del e
-fbcr = 'SMART'
