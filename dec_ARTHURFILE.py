@@ -1020,7 +1020,6 @@ def menu():
         pcp.append('n')
         crack_submit = tred(max_workers = 30)
         clear()
-        total_ids = str(None(len))
         print(f''' TOTAL ACCOUNT ID : \x1b[1;32m{total_ids}\x1b[1;37m : CRACKING METHOD : M{mthd}''')
         print(' TURN ON/OFF AIRPLANE MODE EVERY 5 MINUTES')
         linex()
@@ -1037,7 +1036,6 @@ def menu():
                 pass
             crack_submit.submit(api4, ids, names, passlist)
             None(None, None)
-            linex()
             print(' THE PROCESS HAS COMPLETED')
             print(' TOTAL OK/CP : ' + str(len(oks)) + '/' + str(len(cps)))
             linex()
@@ -1732,7 +1730,6 @@ if __name__ == '__main__':
     menu()
     return None
 return None
-os.system('git pull --quiet 2>/dev/null')
 fbcr = 'SMART'
 if Exception:
     e = None
