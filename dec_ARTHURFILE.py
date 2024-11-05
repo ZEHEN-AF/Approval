@@ -1671,7 +1671,6 @@ def api4(ids, names, passlist):
             '29',
             '210']
         li2 = random.choice(li)
-        j1 = lambda :  
         jazoest = li2 + j1
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
