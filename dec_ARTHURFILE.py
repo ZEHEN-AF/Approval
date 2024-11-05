@@ -1209,7 +1209,7 @@ def api1(ids, names, passlist):
             '210']
         li2 = random.choice(li)
         j1 = 
-random.choice(digits)None)(range(2)
+random.choice(digits)None
         jazoest = li2 + j1
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
@@ -1409,7 +1409,7 @@ def api2(ids, names, passlist):
             '210']
         li2 = random.choice(li)
         j1 = 
-random.choice(digits)None)(range(2)())
+random.choice(digits)None())
         jazoest = li2 + j1
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
@@ -1609,7 +1609,7 @@ def api3(ids, names, passlist):
             '210']
         li2 = random.choice(li)
         j1 = 
-random.choice(digits)None)(range(2)())
+random.choice(digits)None())
         jazoest = li2 + j1
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
@@ -1809,7 +1809,7 @@ def api4(ids, names, passlist):
             '210']
         li2 = random.choice(li)
         j1 = 
-random.choice(digits)None)(range(2)())
+random.choice(digits)None())
         jazoest = li2 + j1
         data = {
             'api_key': '882a8490361da98702bf97a021ddc14d',
